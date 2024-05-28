@@ -27,5 +27,17 @@ function sumar($a, $b) {
 function multiplicar($a, $b) {
     return $a * $b;
 }
+
+/**
+ * Resta dos números.
+ *
+ * @param int $a El primer número.
+ * @param int $b El segundo número.
+ * @return int La resta de los dos números.
+ */
+function restar($a, $b) {
+    return $a - $b;
+}
+
 ?>
 
